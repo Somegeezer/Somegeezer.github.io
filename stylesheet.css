@@ -22,6 +22,14 @@ h3 {
     font-family: Times, serif;
     color: #ff7f00;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
 nav {
     font-variant: small-caps;
     color: #333333;
