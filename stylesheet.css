@@ -40,11 +40,13 @@ a {
     color: #333333;
     text-decoration: none;
 }
+p a {
+    font-size: 20px;
+    font-family: Times, serif;
+}
 a:hover {
     color: #ff7f00;
-    text-decoration: underline;
 }
 a:active {
     color: #ff7f00;
-    text-decoration: none;
 }
