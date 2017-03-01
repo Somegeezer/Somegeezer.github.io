@@ -1,8 +1,59 @@
-﻿/* Debug Borders
-* { 
-  border: 1px solid white;
+﻿* { 
+  /*border: 1px solid white;*/
+  margin: 0;
+  padding: 0;
 }
-*/
+
+#mainlogo, #mainlogosvg {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 0 0.5em;
+}
+
+#namelogo {
+    max-width: 14em;
+    max-height: 50px;
+    text-align: right;
+    float: right;
+}
+
+#topnav, #bottomnav {
+    font-family: futura-pt, sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+#topnav {
+    float: left;
+    height: 30px;
+    padding: 10px 0;
+}
+
+#bottomnav {
+    text-align: right;
+    float: right;
+}
+
+#header {
+    padding: 0 0 2.5em 0;
+}
+
+#subheading {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: right;
+    float: right;
+    padding: 0 0 2.5em 0;
+    color: #333333;
+}
+
+.pageimage {
+    max-width: 50em;
+    min-width: 50%;
+    max-height: 10em;
+    margin: auto;
+}
 
 body {
     background: #1a1a1a;
@@ -14,7 +65,7 @@ body {
     color: #e6e6e6;
 }
 
-header h1 {
+h1 {
     font-size: 40px;
     font-family: monospace, sans-serif;
     color: #ff7f00;
@@ -32,6 +83,10 @@ h3 {
     color: #ff7f00;
 }
 
+article {
+    padding: 1em 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -40,11 +95,7 @@ ul {
 
 li {
     display: inline;
-}
-
-nav {
-    font-variant: small-caps;
-    color: #333333;
+    padding: 0.5em;
 }
 
 a {
@@ -54,10 +105,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: #ff7f00;
-}
-a:active {
+a:hover, a:active, #currentpage{
     color: #ff7f00;
 }
 
