@@ -1,64 +1,55 @@
 ﻿* { 
-  /*border: 1px solid white;*/
-  margin: 0;
-  padding: 0;
-}
-
-#mainlogo, #mainlogosvg {
-    width: 50px;
-    height: 50px;
-    float: right;
-    padding: 0 0.5em;
+    /*border: 1px solid white;*/
+    margin: 0;
+    padding: 0;
 }
 
 #namelogo {
-    max-width: 14em;
-    max-height: 50px;
-    text-align: right;
-    float: right;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+
+#subheading {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333333;
+    width: 100%;
 }
 
 #topnav, #bottomnav {
     font-family: futura-pt, sans-serif;
     text-transform: uppercase;
     color: #333333;
-}
-
-#topnav {
-    float: left;
-    height: 30px;
+    max-width: 100%;
+    text-align: center;
     padding: 10px 0;
 }
 
-#bottomnav {
-    text-align: right;
-    float: right;
-}
-
-#header {
-    padding: 0 0 2.5em 0;
-}
-
-#subheading {
+#topnav a, #bottomnav a {
     font-size: 15px;
-    font-family: sans-serif;
-    text-align: right;
-    float: right;
-    padding: 0 0 2.5em 0;
-    color: #333333;
+}
+
+#bottomnav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .pageimage {
     max-width: 100%;
-    max-height: 10em;
     margin: auto;
+    padding: 1em 0;
 }
 
 body {
     background: #1a1a1a;
-    margin: 1em auto;
+    margin: auto;
     max-width: 720px;
-    padding: 1em;
+    min-width: 300px;
     font-size: 20px;
     font-family: Times, serif;
     color: #e6e6e6;
@@ -83,18 +74,24 @@ h3 {
 }
 
 article {
+    font-family: sans-serif;
+    font-size: 15px;
     padding: 1em 0;
+    max-width: 100%;
+}
+
+p, p a {
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 li {
     display: inline;
-    padding: 0.5em;
+    padding: 0.2em;
 }
 
 a {
@@ -106,14 +103,4 @@ a {
 
 a:hover, a:active, #currentpage{
     color: #ff7f00;
-}
-
-p {
-    min-width: 200px;
-    max-width: 1000px;
-}
-
-p a {
-    font-size: 20px;
-    font-family: Times, serif;
 }
