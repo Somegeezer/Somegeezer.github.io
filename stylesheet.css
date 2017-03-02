@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-#topnav, #bottomnav {
+#topnav/*, #bottomnav*/ {
     font-family: futura-pt, sans-serif;
     text-transform: uppercase;
     color: #333333;
@@ -28,16 +28,16 @@
     padding: 10px 0;
 }
 
-#topnav a, #bottomnav a {
+#topnav a/*, #bottomnav a*/ {
     font-size: 15px;
 }
 
-#bottomnav {
+/*#bottomnav {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-}
+}*/
 
 .pageimage {
     max-width: 100%;
@@ -112,7 +112,7 @@ a:hover, a:active, #currentpage {
     box-sizing: border-box;
     width: 300px;
     display: block;
-    margin: 1em auto 0 auto;
+    margin: 1% auto 0 auto;
     background-color: #1a1a1a;
     background-image: url("searchicon.png");
     background-position: 2px 2px;
@@ -120,4 +120,16 @@ a:hover, a:active, #currentpage {
     padding-left: 20px;
     border: none;
     border-bottom: 2px solid #333333;
+}
+
+.albumcover {
+    display: inline-block;
+    max-width: 30%;
+    padding: 0 1%;
+}
+
+#albumcovers {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
 }
