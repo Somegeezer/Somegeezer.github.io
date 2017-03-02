@@ -101,6 +101,23 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:active, #currentpage{
+a:hover, a:active, #currentpage {
     color: #ff7f00;
+}
+
+#search input {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333333;
+    box-sizing: border-box;
+    width: 300px;
+    display: block;
+    margin: 1em auto 0 auto;
+    background-color: #1a1a1a;
+    background-image: url("searchicon.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 2px solid #333333;
 }
