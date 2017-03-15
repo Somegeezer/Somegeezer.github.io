@@ -107,7 +107,7 @@ a:hover, a:active, #currentpage {
     display: block;
     margin: 1% auto 0 auto;
     background-color: #1a1a1a;
-    background-image: url("searchicon.png");
+    background-image: url("/icons/searchicon.png");
     background-position: 2px 2px;
     background-repeat: no-repeat;
     padding-left: 20px;
@@ -147,7 +147,7 @@ a:hover, a:active, #currentpage {
     display: block;
     margin: 0 auto 0 auto;
     background-color: #1a1a1a;
-    background-image: url("searchicon.png");
+    background-image: url("/icons/searchicon.png");
     background-position: 2px 2px;
     background-repeat: no-repeat;
     padding-left: 20px;
