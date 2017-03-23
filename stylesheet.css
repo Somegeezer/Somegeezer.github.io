@@ -129,6 +129,14 @@ a:hover, a:active, #currentpage {
     text-align: center;
 }
 
+/*#atánnabheksheet*/
+
+.languageimage {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+}
+
 /*Homepage*/
 #homenamelogo {
     display: block;
