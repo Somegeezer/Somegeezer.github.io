@@ -34,8 +34,7 @@
 }
 
 .pageimage {
-    max-width: 100%;
-    margin: auto;
+    width: 100%;
     padding: 1em 0;
     float: none;
 }
@@ -48,6 +47,7 @@ body {
     font-size: 20px;
     font-family: Times, serif;
     color: #e6e6e6;
+    overflow-y: scroll;
 }
 
 h1 {
@@ -114,7 +114,7 @@ a:hover, a:active, #currentpage {
     box-sizing: border-box;
     width: 300px;
     display: block;
-    margin: 1% auto 0 auto;
+    margin: 1em auto 0 auto;
     background-color: #1a1a1a;
     background-image: url("icons/searchicon.png");
     background-position: 2px 2px;
@@ -124,31 +124,24 @@ a:hover, a:active, #currentpage {
     border-bottom: 2px solid #333333;
 }
 
-/*Music Page*/
-.albumleft {
+/*Extra Images*/
+.imageleft {
     display: inline-block;
     max-width: 32.3%;
 }
 
-.albummiddle {
+.imagemiddle {
     display: inline-block;
     max-width: 32.3%;
     margin: 0 1.5% 0 1.5%;
 }
 
-.albumright {
+.imageright {
     display: inline-block;
     max-width: 32.3%;
 }
 
 #albumcovers {
-    display: inline-block;
-    max-width: 100%;
-    text-align: center;
-}
-
-/*#atánnabheksheet*/
-.languageimage {
     display: inline-block;
     max-width: 100%;
     text-align: center;
@@ -160,4 +153,5 @@ a:hover, a:active, #currentpage {
     width: 300px;
     margin: 50% auto 0 auto;
     padding: 0 0 50px 0;
+    float: none;
 }
