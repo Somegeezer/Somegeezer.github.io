@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/somegeezer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://sgmikaelsson.tk
+  * I am somegeezer (https://keybase.io/somegeezer) on keybase.
+  * I have a public key ASBVELLCizE5wWKdTVe8vPo7yugETMfjVi1uSHtx8w49wAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c0eadf784a8e849e8e03c276834f648f77fcad0a51c009728b720eb442e6f5680a",
+            "host": "keybase.io",
+            "kid": "01205510b2c28b3139c1629d4d57bcbcfa3bcae8044cc7e3562d6e487b71f30e3dc00a",
+            "uid": "29e06739b6e119f56b3a3a88d5ef7719",
+            "username": "somegeezer"
+        },
+        "merkle_root": {
+            "ctime": 1498771208,
+            "hash": "8a33e56ec1986862288824e7102dcc753557278a15ed7687f59042df976064f865006a22b149003fcf15e94ede81b866232333c143864a96d4b48d09051b4d0e",
+            "hash_meta": "6f94cfb828b4ec79df3a2251bdeabb6294c94c4c8e6a3db555c4889ffa8154f3",
+            "seqno": 1201981
+        },
+        "service": {
+            "hostname": "sgmikaelsson.tk",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.24"
+    },
+    "ctime": 1498771270,
+    "expire_in": 504576000,
+    "prev": "80c69a2c7a72599ba689ad61892dd15b609d51b86654eb40cb32005d71dca0cd",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVRCywosxOcFinU1XvLz6O8roBEzH41Ytbkh7cfMOPcAKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYzBlYWRmNzg0YThlODQ5ZThlMDNjMjc2ODM0ZjY0OGY3N2ZjYWQwYTUxYzAwOTcyOGI3MjBlYjQ0MmU2ZjU2ODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNTUxMGIyYzI4YjMxMzljMTYyOWQ0ZDU3YmNiY2ZhM2JjYWU4MDQ0Y2M3ZTM1NjJkNmU0ODdiNzFmMzBlM2RjMDBhIiwidWlkIjoiMjllMDY3MzliNmUxMTlmNTZiM2EzYTg4ZDVlZjc3MTkiLCJ1c2VybmFtZSI6InNvbWVnZWV6ZXIifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTg3NzEyMDgsImhhc2giOiI4YTMzZTU2ZWMxOTg2ODYyMjg4ODI0ZTcxMDJkY2M3NTM1NTcyNzhhMTVlZDc2ODdmNTkwNDJkZjk3NjA2NGY4NjUwMDZhMjJiMTQ5MDAzZmNmMTVlOTRlZGU4MWI4NjYyMzIzMzNjMTQzODY0YTk2ZDRiNDhkMDkwNTFiNGQwZSIsImhhc2hfbWV0YSI6IjZmOTRjZmI4MjhiNGVjNzlkZjNhMjI1MWJkZWFiYjYyOTRjOTRjNGM4ZTZhM2RiNTU1YzQ4ODlmZmE4MTU0ZjMiLCJzZXFubyI6MTIwMTk4MX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJzZ21pa2FlbHNzb24udGsiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI0In0sImN0aW1lIjoxNDk4NzcxMjcwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjgwYzY5YTJjN2E3MjU5OWJhNjg5YWQ2MTg5MmRkMTViNjA5ZDUxYjg2NjU0ZWI0MGNiMzIwMDVkNzFkY2EwY2QiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDnE6d8pprC/+2n7KqiGJ7kH0GNu9ky0wxp4ovnannI4XJOFIbPOWX37jUFQ4Wo7MWCZB+go7SLoxeBxly9XOAJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgl5GJr5sUth9PlOU2QxBVbXkQTf3TKbXeSNRdqR2Or2mjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/somegeezer
+
+==================================================================
