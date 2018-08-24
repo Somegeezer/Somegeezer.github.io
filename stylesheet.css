@@ -15,14 +15,15 @@
 
 #namelogo {
     display: block;
-    width: 300px;
+    max-height: 3em;
+    min-width: 200px;
     margin: 0 auto;
     padding: 0 0 10px 0;
     float: none;
 }
 
 #subheading {
-    font-size: 0.5em;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #333333;
@@ -132,7 +133,8 @@ a:hover, a:active, #currentpage {
     font-family: 'Open Sans', sans-serif;
     color: #333333;
     box-sizing: border-box;
-    width: 300px;
+    width: 33%;
+    min-width: 200px;
     display: block;
     margin: 1em auto 0 auto;
     background-color: #1a1a1a;
@@ -170,7 +172,8 @@ a:hover, a:active, #currentpage {
 /*Homepage*/
 #homenamelogo {
     display: block;
-    width: 300px;
+    max-height: 3em;
+    min-width: 200px;
     margin: 50% auto 0 auto;
     padding: 0 0 50px 0;
     float: none;
