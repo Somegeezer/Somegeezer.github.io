@@ -1,4 +1,12 @@
-﻿* { 
+﻿@font-face {
+    font-family: atánnabheksans;
+    src: url(fonts/atánnabheksans Regular.ttf);
+    src: url(fonts/atánnabheksans Italic.ttf);
+    font-family: atánnabhekserif;
+    src: url(fonts/atánnabhekserif Regular.ttf);
+}
+
+* { 
     /*border: 1px solid white;*/
     margin: 0;
     padding: 0;
@@ -6,14 +14,15 @@
 
 #namelogo {
     display: block;
-    width: 300px;
+    max-height: 3em;
+    min-width: 200px;
     margin: 0 auto;
     padding: 0 0 10px 0;
     float: none;
 }
 
 #subheading {
-    font-size: 15px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: #333333;
@@ -23,11 +32,21 @@
 #topnav {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1em;
     color: #333333;
     max-width: 100%;
     text-align: center;
     padding: 10px 0;
+}
+
+.atbn {
+    font-family: atánnabheksans;
+    text-transform: none;
+}
+
+.atby {
+    font-family: atánnabhekserif;
+    text-transform: none;
 }
 
 .pageimage {
@@ -41,26 +60,26 @@ body {
     margin: auto;
     max-width: 720px;
     min-width: 300px;
-    font-size: 20px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     color: #e6e6e6;
     overflow-y: hidden;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 3em;
     font-family: 'PT Serif', serif;
     color: #ff7f00;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2em;
     font-family: 'PT Serif', serif;
     color: #ff7f00;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: 'PT Serif', serif;
     color: #ff7f00;
 }
@@ -73,14 +92,14 @@ img {
 
 article {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
     padding: 1em 0;
     max-width: 100%;
 }
 
 p, p a {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 ul {
@@ -93,7 +112,7 @@ li {
 }
 
 a {
-    font-size: 15px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     color: #333333;
     text-decoration: none;
@@ -105,11 +124,12 @@ a:hover, a:active, #currentpage {
 
 /*Custom DDG Search*/
 #search input {
-    font-size: 15px;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     color: #333333;
     box-sizing: border-box;
-    width: 300px;
+    width: 33%;
+    min-width: 200px;
     display: block;
     margin: 1em auto 0 auto;
     background-color: #1a1a1a;
@@ -147,7 +167,8 @@ a:hover, a:active, #currentpage {
 /*Homepage*/
 #homenamelogo {
     display: block;
-    width: 300px;
+    max-height: 3em;
+    min-width: 200px;
     margin: 50% auto 0 auto;
     padding: 0 0 50px 0;
     float: none;
