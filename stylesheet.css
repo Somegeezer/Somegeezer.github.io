@@ -44,7 +44,7 @@ body {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     color: #e6e6e6;
-    overflow-y: scroll;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -151,4 +151,10 @@ a:hover, a:active, #currentpage {
     margin: 50% auto 0 auto;
     padding: 0 0 50px 0;
     float: none;
+}
+
+.scroller {
+  overflow-y: scroll;
+  /*scrollbar-width: thin;*/
+  scrollbar-color: #111111 #333333;
 }
